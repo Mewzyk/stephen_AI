@@ -2,6 +2,7 @@
 Author: Stephen Thomas
 Date Created: 23 December 2017
 Basic implementation of an undirected graph
+Github Link: https://github.com/Mewzyk/stephen_AI.git
 """
 
 class Graph:
@@ -19,4 +20,13 @@ class Graph:
 
     def add_edge(self, edge):
         edge = set(edge)
-        print('hello world')
+        if (edge.size() == 2):
+            left = edge.pop()
+            right = edge.pop()
+
+            if left in self.__graph_dict and right in self.__graph_dict:
+                self.__graph_dict[left].append(right)
+                self.__graph_dict[right].append(left)
+
+if __name__ == "__main__":
+    print("hello world!")
