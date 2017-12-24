@@ -29,9 +29,10 @@ class Graph:
                 self.__graph_dict[right].append(left)
 
     def print_graph(self):
-        print('Printing Vertices:')
-        print(self.__graph_dict.keys())
-        print('Printing Edges:')
+        print('Printing Vertices: ')
+        print(self.__graph_dict.keys(), '\n')
+
+        print('Printing Edges: \n')
         for vertex in self.__graph_dict.keys():
             print(vertex, '<---->', self.__graph_dict[vertex])
 
