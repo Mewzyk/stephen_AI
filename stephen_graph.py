@@ -20,7 +20,7 @@ class Graph:
 
     def add_edge(self, edge):
         edge = set(edge)
-        if (edge.size() == 2):
+        if len(edge) == 2:
             left = edge.pop()
             right = edge.pop()
 
@@ -28,5 +28,22 @@ class Graph:
                 self.__graph_dict[left].append(right)
                 self.__graph_dict[right].append(left)
 
+    def print_graph(self):
+        print('Printing Vertices:')
+        print(self.__graph_dict.keys())
+        print('Printing Edges:')
+        for vertex in self.__graph_dict.keys():
+            print(vertex, '<---->', self.__graph_dict[vertex])
+
 if __name__ == "__main__":
-    print("hello world!")
+    main_graph = Graph()
+    vertices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+    edges = [['a', 'b'], ['b', 'c'], ['c', 'd'], ['d', 'e'], ['e', 'f'], ['f', 'g'], ['g', 'h']]
+
+    for vertex in vertices:
+        main_graph.add_vertex(vertex)
+
+    for edge in edges:
+        main_graph.add_edge(edge)
+
+    main_graph.print_graph()
