@@ -1,5 +1,5 @@
 # UCSC AI Sandbox
-General purpose project whose purpose is to practice the implementation of knowldage gained while studying Computer Science at UCSC. Initial work has been done to implement a framework for generating graphs. Future work will involve implemented graph search AI alrogithms and visualizting these algorithms using D3.js
+General purpose project whose purpose is to practice the implementation of knowldage gained while studying Computer Science at UCSC. Initial work has been done to implement a framework for generating graphs. Future work will involve implementing graph search AI alrogithms and visualizting these algorithms using D3.js
 
 ## Getting Started
 
