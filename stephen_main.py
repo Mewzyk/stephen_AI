@@ -1,5 +1,5 @@
 from stephen_graph import Graph
-from stephen_dfs import depth_first_search
+from stephen_dfs import dfs
 
 if __name__ == "__main__":
     main_graph = Graph()
@@ -13,4 +13,8 @@ if __name__ == "__main__":
 
     main_graph.print_graph()
 
-    print(depth_first_search('a', 'h', main_graph))
+    start = main_graph.graph_dict['e']
+    end = main_graph.graph_dict['h']
+
+    print('Printing Path: ')
+    print(dfs(start, end))

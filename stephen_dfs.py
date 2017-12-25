@@ -13,21 +13,18 @@ Params ->
 Output ->
 List containing visited nodes
 """
-def depth_first_search(start_node, dest_node, graph):
-    visited = []
-    stack = [start_node]
+def dfs(start_node, dest_node, visited=None, path=None):
+    if visited is None:
+        visited = set()
+        path = []
 
-    curr_node = stack.pop(0)
-    visited.append(curr_node)
-    while curr_node is not None:
-        for vertex in graph.__graph_dict[curr_node]:
-            if vertex not in visited:
-                stack.insert(0, vertex)
+    visited.add(start_node)
+    path.append(start_node.key)
 
-        if curr_node is dest_node:
-            break
-        else:
-            curr_node = stack.pop(0)
-            visited.append(curr_node)
+    if start_node is dest_node: return path
 
-    return visited
+    for neighbor in start_node.neighbors:
+        if neighbor not in visited:
+            dfs(neighbor, dest_node, visited, path)
+
+        if dest_node.key in path: return path
