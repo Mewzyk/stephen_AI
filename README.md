@@ -9,8 +9,9 @@ The project is very bare bones at the moment. With time there will be more instr
 python 3.5.x
 
 ## Progress
-* **Basic Graph Framework in stephen_graph**
-* **Depth first search in stephen_dfs**
+* Basic Graph Framework in stephen_graph
+* Depth first search in stephen_dfs
+* Main program builds an example graph and runs an instance of DFS
 
 ## Authors
 
