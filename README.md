@@ -17,14 +17,14 @@ python 3.5.x
 
 ## TO DO
 
-Getting started section with code snippets
-Driver function that contains interactive functionality
-Implement BFS
-Implement Shortest Path
-Add edge weight functionality
-Implement Greedy search
-Example Dataset (possibly cities/distances)
-Graph visualization in d3.js
+*Getting started section with code snippets
+*Driver function that contains interactive functionality
+*Implement BFS
+*Implement Shortest Path
+*Add edge weight functionality
+*Implement Greedy search
+*Example Dataset (possibly cities/distances)
+*Graph visualization in d3.js
 
 ## Authors
 
