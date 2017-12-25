@@ -17,6 +17,7 @@ python 3.5.x
 
 ## TO DO
 
+* Draw breakdown of classes used
 * Getting started section with code snippets
 * Driver function that contains interactive functionality
 * Implement BFS
