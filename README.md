@@ -1,5 +1,5 @@
 # UCSC AI Sandbox
-General purpose project to practice implementation of knowldage gained while studying Computer Science at UCSC. Initial work has been done to implement a framework for generating graphs. Future work will involve implementation and visualization of graph search AI algorithms.
+General purpose project to practice implementation of knowldege gained while studying Computer Science at UCSC. Initial work has been done to implement a framework for generating graphs. Future work will involve implementation and visualization of graph search AI algorithms.
 
 ## Getting Started (TO DO)
 
@@ -37,6 +37,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+* Hat tip to anyone whose code was used
 * Inspiration
 * etc
