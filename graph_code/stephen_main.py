@@ -1,5 +1,5 @@
-from stephen_graph import Graph
-from stephen_dfs import dfs
+from graph_code.stephen_graph import Graph
+from graph_code.stephen_dfs import dfs
 
 if __name__ == "__main__":
     main_graph = Graph()
