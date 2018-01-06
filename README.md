@@ -13,19 +13,19 @@ python 3.5.x
 
 * Basic Graph Framework in stephen_graph
 * Depth first search in stephen_dfs
-* Main program builds an example graph and runs an instance of DFS
+* Bread first search in bre_bfs
+* Main program builds an example graph and runs an instance of BFS
+* Graph visualization implemented by example D3.js project (Mike Bostock)
+* Got example dataset (actors/actresses in Le Mis)
 
 ## TO DO
 
 * Draw breakdown of classes used
 * Getting started section with code snippets
 * Driver function that contains interactive functionality
-* Implement BFS
 * Implement Shortest Path
 * Add edge weight functionality
 * Implement Greedy search
-* Example Dataset (possibly cities/distances)
-* Graph visualization in d3.js
 
 ## Authors
 
