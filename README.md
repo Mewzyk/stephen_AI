@@ -3,7 +3,7 @@ General purpose project to practice implementation of knowldege gained while stu
 
 ## Getting Started (TO DO)
 
-The project is very bare bones at the moment. With time there will be more instructions for startup but for now just git cone this repository and checkout the code I've written
+This project contains some independent work related to graph theory and path traversal. Inside of each P* directory is a solution to a different portion of the berkley A.I. project.
 
 ### Prerequisites
 
