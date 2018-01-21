@@ -7,8 +7,8 @@ Github Link: https://github.com/Mewzyk/stephen_AI.git
 
 import json
 
-with open("../visualization_code/miserbales_dataset.json", "r") as f:
-    content = f.read()
+#with open("../visualization_code/miserbales_dataset.json", "r") as f:
+#    content = f.read()
 
 my_dict = json.loads(content)
 
